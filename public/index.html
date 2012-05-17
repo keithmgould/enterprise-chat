@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="UTF-8">
+  <title>Node.js + Module Oriented Chat</title>
+  <link rel="stylesheet" href="default.css" /> 
+ </head>
+ <body>
+   <h1>Chatting is Fun</h1>
+  <div id="main">
+    <div id="chatWindowModule" class="centered">
+      <ul></ul>
+    </div>
+    <div id="textBoxModule" class="centered">
+      yer name: <input id="clientName" type="text" value="guest"/><br>
+      speak: <input id="message" type="text"/>
+    </div>
+  </div>
+  <script src="socket.io/socket.io.js"></script>
+  <script src="javascript/jquery.1.7.2.min.js" type="text/javascript" charset="utf-8"></script>
+  <script src="javascript/client.js" type="text/javascript" charset="utf-8"></script>
+  <script src="javascript/core.modules.js" type="text/javascript" charset="utf-8"></script>
+  <script src="javascript/core.transport.socket.io.js" type="text/javascript" charset="utf-8"></script>
+  <script src="javascript/core.js" type="text/javascript" charset="utf-8"></script>
+  <script src="javascript/sandbox.js" type="text/javascript" charset="utf-8"></script>
+  <script src="javascript/modules.js" type="text/javascript" charset="utf-8"></script>
+ </body>
+</html>
