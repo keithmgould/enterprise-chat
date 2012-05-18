@@ -1,6 +1,6 @@
 CHAT.namespace("CHAT.CORE");
 
-CHAT.CORE.TRANSPORT = (function () {
+CHAT.CORE.transport = (function () {
   var socket = io.connect("http://chat.local:3000"),
       sendables = ["new-message"];
 

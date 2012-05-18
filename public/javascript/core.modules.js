@@ -1,6 +1,6 @@
 CHAT.namespace("CHAT.CORE");
 
-CHAT.CORE.MODULES = (function () {
+CHAT.CORE.modules = (function () {
 
   var moduleData = {};
 
